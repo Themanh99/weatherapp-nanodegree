@@ -1,0 +1,44 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: medium;
+}
+
+.title {
+  color: cornflowerblue;
+  text-align: center;
+  justify-content: center;
+  font-size: x-large;
+}
+
+#zipcode {
+  height: 50px;
+  width: 30%;
+}
+
+.feel {
+  height: 200px;
+  width: 50%;
+}
+.emotion {
+  height: 200px;
+  width: 80%;
+}
+.generate {
+  margin-top: 10px;
+  background-color: bisque;
+  border: none;
+  border-radius: 5px;
+  height: 50px;
+  width: 100px;
+}
+
+button:hover {
+  color: aliceblue;
+  background-color: blue;
+}
+
+.holder.entry {
+  margin-top: 10px;
+  background-color: aquamarine;
+  height: 200px;
+}

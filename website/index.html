@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Weather App</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <script async src="app.js" type="text/javascript"></script>
+    <div class="title"><h1>Weather Journal App</h1></div>
+    <main>
+      <div class="zip-code">
+        <h2>Enter Zipcode here</h2>
+        <input
+          type="text"
+          id="zipcode"
+          class="input-zip"
+          placeholder="Enter Zipcode"
+        />
+      </div>
+      <div class="feel">
+        <h2>How are you feeling today?</h2>
+        <input
+          type="text"
+          id="emotion"
+          name="emotion"
+          class="emotion"
+          placeholder="Input your feeling"
+        />
+        <button class="generate" id="generate" type="submit">Generate</button>
+        <div class="holder entry">
+          <div class="title-entry">Most Recent Entry</div>
+          <h1 id="name"></h1>
+          <div id="entryHolder">
+            <div id="date"></div>
+            <div id="temp"></div>
+            <div id="content"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
